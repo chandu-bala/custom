@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    width: 100%;
+    height:100vh;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    display: flex;
+}
+.container{
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding : 20px;
+}
+
+h2,h4:hover{
+    cursor: pointer;
+}
+button:hover{
+    text-decoration-color: black;
+    background-color: aquamarine;
+}
